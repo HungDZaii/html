@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --font: 'DM Sans' , sans-serif;
+    --color-one: #794AD8;
+    --color-two: #F3E9FF;
+}
+
+* {
+    font-family: var(--font);
+}
+
+.backgroup{
+    background-color: var(--color-two);
+    width: 100%;
+    max-width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backgroup .header .header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroup .header{
+    margin-bottom: 70px;
+}
+
+.backgroup .header .header-text h1{
+    font-size: 70px;
+    color: #5029C3;
+    font-weight: 1000;
+}
+
+.backgroup .header .header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroup .header .header-logo img{
+    width: 200;
+    height: 200px;
+}
+
+.backgroup .container{
+    background-color: var(--color-one);
+    width: 100%;
+    max-width: 1015px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.backgroup .container .inner-text{
+    color: white;
+    padding: 40px 40px;
+    font-size: 20px;
+}
+
+.backgroup .container .inner-text mark{
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.backgroup .container .inner-text .color-text{
+    border-left: 5px solid rgb(255, 251, 0);
+    padding-left: 10px;
+}
+
+.backgroup .end{
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backgroup .end .button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroup .end .button a{
+    background-color: orange;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.backgroup .end .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
